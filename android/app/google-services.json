@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "341916879476",
+    "project_id": "lovasy-all",
+    "storage_bucket": "lovasy-all.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341916879476:android:5a4d3a070d104baaaa9f21",
+        "android_client_info": {
+          "package_name": "com.lovasyapp.efh"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOYs2sXGQ6PjAOHdH8uAjoFZ1S9yW-o38"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
