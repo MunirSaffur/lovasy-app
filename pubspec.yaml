@@ -96,13 +96,15 @@ flutter:
     - assets/json/
 
   fonts:
-    - family: Roboto
+    - family: Almarai
       fonts:
-        - asset: assets/font/Roboto-Regular.ttf
+        - asset: assets/font/Almarai-Regular.ttf
           weight: 400
-        - asset: assets/font/Roboto-Medium.ttf
-          weight: 500
-        - asset: assets/font/Roboto-Bold.ttf
+#        - asset: assets/font/Tajawal-Medium.ttf
+#          weight: 500
+        - asset: assets/font/Almarai-Bold.ttf
           weight: 700
-        - asset: assets/font/Roboto-Black.ttf
-          weight: 900
+        - asset: assets/font/Almarai-ExtraBold.ttf
+          weight: 800
+#        - asset: assets/font/Tajawal-Black.ttf
+#          weight: 900

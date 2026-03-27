@@ -7,7 +7,7 @@ class AppConstants {
   static const String appName = 'Lovasy';
   static const double appVersion = 3.7; ///Flutter sdk 3.41.1
 
-  static const String fontFamily = 'Roboto';
+  static const String fontFamily = 'Almarai';
   static const bool payInWevView = false;
   static const int balanceInputLen = 10;
   static const String webHostedUrl = 'https://lovasy.app';
