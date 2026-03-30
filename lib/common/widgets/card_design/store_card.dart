@@ -219,14 +219,14 @@ class StoreCard extends StatelessWidget {
                   right: Get.find<LocalizationController>().isLtr ? 0 : null,
                   item: null, storeId: store.id,
                 ),
-
+                !isTopOffers! ? const NewTag(top: 0,) : const SizedBox(),
               ]);
             }
           ),
         ),
       ),
 
-      !isTopOffers! ? const NewTag() : const SizedBox(),
+
     ]);
   }
 }

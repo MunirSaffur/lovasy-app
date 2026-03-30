@@ -31,7 +31,7 @@ class TitleWidget extends StatelessWidget {
           child: Text(
             'see_all'.tr,
             style: robotoMedium.copyWith(fontSize: Dimensions.fontSizeSmall, color: Theme.of(context).textTheme.bodyLarge!.color!.withValues(alpha: 0.5),
-              decoration: TextDecoration.underline, decorationColor: Theme.of(context).textTheme.bodyLarge!.color!.withValues(alpha: 0.5), decorationThickness: 1.5,
+              decoration: TextDecoration.none, decorationColor: Theme.of(context).textTheme.bodyLarge!.color!.withValues(alpha: 0.5), decorationThickness: 1.5,
             ),
           ),
         ),

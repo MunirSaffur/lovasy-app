@@ -147,12 +147,12 @@ class StoreCardWithDistance extends StatelessWidget {
                       Expanded(
                         flex: 3,
                         child: Padding(
-                          padding: const EdgeInsets.only(left: 95),
+                          padding: const EdgeInsets.only(left: 95, right: 12),
                           child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                             const SizedBox(height: Dimensions.paddingSizeExtraSmall),
 
                             Flexible(child: Text(store.name ?? '', maxLines: 1, overflow: TextOverflow.ellipsis, style: robotoMedium)),
-                            const SizedBox(height: Dimensions.paddingSizeExtraSmall),
+                            const SizedBox(height: Dimensions.paddingSizeSmall),
 
                            !fromTopOffers! ? Row(children: [
                               Icon(Icons.location_on_outlined, color: isPharmacy ? Colors.blue : Theme.of(context).primaryColor, size: 15),
